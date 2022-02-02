@@ -1,1 +1,3 @@
-# blogr-landing-page-main
+# blogr-landing-page-main 
+
+Project in progress... 
