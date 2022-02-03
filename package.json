@@ -1,0 +1,21 @@
+{
+  "name": "blogr-landing-page-main",
+  "version": "1.0.0",
+  "description": "Project in progress...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass style/style.scss:style/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gustavo-Victor/blogr-landing-page-main.git"
+  },
+  "keywords": ["SASS", "HTML", "CSS", "JavaScript", "Web", "Web development", "Front-end"],
+  "author": "Gustavo Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gustavo-Victor/blogr-landing-page-main/issues"
+  },
+  "homepage": "https://github.com/Gustavo-Victor/blogr-landing-page-main#readme"
+}

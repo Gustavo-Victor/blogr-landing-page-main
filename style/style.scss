@@ -1,0 +1,315 @@
+@use 'mixins';
+@use 'variables';
+@import 'reset'; 
+
+//header
+.main-header{ 
+    background: url("../images/bg-pattern-intro-desktop.svg"), linear-gradient(to right, variables.$header_gradient1, variables.$header_gradient2);    
+    background-position: -330px -1190px, center;
+    background-size: 210%, 100%;
+    background-repeat: no-repeat, no-repeat;
+    padding: 3rem 5rem 7rem 5rem;
+    color: variables.$white_color;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    border-radius: 0 0 0 70px;
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        &-left{
+            display: flex;
+            align-items: center;
+            gap: 3rem;       
+        }
+
+        &-list{
+            display: flex;
+            align-items: center;
+            gap: 2.8rem;        
+        }
+
+        &-item {
+            position: relative;
+
+            &.active > .dropdown-menu{
+                display: flex;
+            }
+
+            &.active > .dropdown-toggle {
+                opacity: 1;                
+            }
+
+            &.active > .dropdown-toggle > svg{
+                transform: rotate(180deg);
+            }
+
+            .dropdown-toggle{
+                color: variables.$white_color;
+                transition: 0.4s;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                opacity: 0.8;
+                
+
+                &:hover, &:active{
+                    text-decoration: underline;
+                    opacity: 1;
+                }                
+            }
+
+            .dropdown-menu{
+                display: flex;
+                display: none;
+                position: absolute;
+                flex-direction: column;
+                gap: 0.5rem;                
+                top: 32px;
+                left: -20px;
+                width: 150px;
+                max-width: 150px;
+                background-color: variables.$white_color;
+                padding: 20px 15px;
+                border-radius: 10px;
+                box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.3);
+
+                .dropdown-item{
+                    color: variables.$footer_bg;
+
+                    &:hover{
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        &-right{
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+
+            .btn-login{
+                color: variables.$white_color;
+
+                &:hover{
+                    opacity: 0.8;
+                }
+            }   
+
+            .btn-signup{
+                @include mixins.defaultBtn(12px, 25px);    
+                background-color: variables.$white_color;
+                color: variables.$cta_text;
+                
+                &:hover{
+                    background: variables.$cta_hover_bg;
+                    color: variables.$white_color;                    
+                }
+            }
+        }
+    }
+
+    .call-to-action{
+        text-align: center;
+
+        h1{
+            font-size: 45px;
+        }
+
+        p{
+            font-weight: 300;
+            margin: 1.7rem 0 2.5rem 0;
+        }
+
+        .align-btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            
+            .start{
+                @include mixins.defaultBtn(10px, 15px);    
+                background-color: variables.$white_color;
+                color: variables.$cta_text;
+                
+                &:hover{
+                    background: variables.$cta_hover_bg;
+                    color: variables.$white_color;
+                }
+            }
+    
+            .learn{
+                @include mixins.defaultBtn(10px, 15px);
+                background: variables.$cta_hover_bg;
+                color: variables.$white_color;
+                border: 1px solid white;
+
+                &:hover{
+                    background-color: variables.$white_color;
+                    color: variables.$cta_text;
+                }
+            }
+        }
+
+    }
+}
+
+
+//main 
+.main{
+    section {        
+        h2, h3{
+            color: variables.$headings;
+        }
+
+        p{
+            color: variables.$body_text;
+        }
+    }
+
+    //section 1
+    .first{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 3rem 0 8rem 0;
+        background-image: url('../images/illustration-editor-desktop.svg');
+        background-size: 45%;
+        background-position: 920px 35px;
+        background-repeat: no-repeat;
+        z-index: -1;
+
+        h2{
+            text-align: center;
+            margin-top: 4.5rem;
+            font-size: 28px;
+        }
+
+        .content{
+            display: flex;
+            max-width: 100%;
+            padding: 0 0rem 3rem 7rem;
+            height: 100%;
+
+            .text{
+                flex: 1;
+                max-width: 55%;
+
+                h3{
+                    margin: 2rem 0 1rem 0;
+                }
+            }
+        }
+    }
+    
+    //section 2 
+    .second{
+        color: variables.$white_color;
+        display: flex;      
+        background-image: url('../images/bg-pattern-circles.svg'), linear-gradient(to right, variables.$body_gradient1, variables.$body_gradient2);
+        background-size:  50%, 100%;
+        background-position:  -150px -350px, center;
+        background-repeat:  no-repeat, no-repeat;  
+        border-radius: 0 50px 0 70px;
+        position: relative;
+        margin: 2rem 0 3rem 0;
+
+        .image{
+            flex: 1;
+            max-width: 55%;
+            z-index: 8;
+
+            img{
+                width: 30%;
+                height: auto;
+                top: -40px;
+                left: 10%;
+                position: absolute;                
+            }
+        }
+
+        .text{
+            max-width: 45%;
+            order: 1;
+            flex: 1;
+            padding: 5rem 7rem 5rem 0;
+
+            h2, p {
+                color: variables.$white_color;
+            }
+
+            p{
+                margin: 3% 0;
+            }
+        }
+    }
+    
+    //section 3
+    .third{
+        display: flex;
+        margin: 2rem 0 4rem 0;
+        align-items: center;
+        padding: 1rem 0;
+        
+        .image{
+            position: relative;
+            max-width: 50%;   
+            flex: 1;
+            
+            img{
+                position: relative;
+                width: 100%;
+                left: -190px;      
+            }
+        }
+
+        .text{
+            max-width: 50%;
+            padding: 0 3rem 0 0;
+
+            h3{
+                margin: 2rem 0 1rem 0;
+            }
+        }
+    }
+}
+ 
+
+//footer 
+.main-footer{
+    background-color: variables.$footer_bg;
+    color: variables.$white_color;
+    display: flex;    
+    padding: 3rem 4rem 4rem 3rem; 
+    border-radius: 0 60px 0 0;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    ul{
+        li{
+            margin-bottom: 0.6rem;
+        }
+
+        li a, li h4{
+            color: variables.$footer_text;
+            transition: 0.4s;
+        }
+
+        li h4{
+            margin-bottom: 2rem;
+        }
+
+        li a:hover{
+            color: variables.$white_color;
+            text-decoration: underline;
+        }
+    }
+}
+
+

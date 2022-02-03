@@ -5,20 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | [Blogr]</title>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,600;1,300;1,600&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <!--css-->
+  <link rel="stylesheet" href="style/style.css">
+
+  <!--js-->
+  <script src="./script/script.js" defer></script>
+
 </head>
 <body>
 
   <header class="main-header">
     <nav class="nav">
       <div class="nav-left">
-        <h2>Logo</h2>
+        <h2><a href="#"><img src="./images/logo.svg" alt="Logo" title="Logo"></a></h2>
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="#" class="dropdown-toggle" >Product</a>
+            <a href="#" class="dropdown-toggle">Product 
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>  
+            </a>
             <div class="dropdown-menu">
               <a href="#" class="dropdown-item" >Overview</a>
               <a href="#" class="dropdown-item">Pricing</a>
@@ -29,7 +38,9 @@
           </li> 
           
           <li class="nav-item">
-            <a href="#" class="dropdown-toggle">Company</a>
+            <a href="#" class="dropdown-toggle">Company
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>
+            </a>
             <div class="dropdown-menu">
               <a href="#" class="dropdown-item">About</a>
               <a href="#" class="dropdown-item">Team</a>
@@ -39,7 +50,9 @@
           </li>          
         
           <li class="nav-item">
-            <a href="#" class="dropdown-toggle">Connect</a>
+            <a href="#" class="dropdown-toggle">Connect
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>
+            </a>
             <div class="dropdown-menu">
               <a href="#" class="dropdown-item">Contact</a>
               <a href="#" class="dropdown-item">Newsletter</a>
@@ -49,20 +62,22 @@
         </ul>
       </div>
       <div class="nav-right">
-        <button class="btn-login">Login</button>
+        <a href="#" class="btn-login">Login</a>
         <button class="btn-signup">Sign Up</button>
       </div>
     </nav>
-    <div>
+    <div class="call-to-action">
       <h1>A modern publishing platform</h1>
       <p>Grow your audience and build your online brand</p>
-      <button>Start for Free</button>
-      <button>Learn More</button>
+      <div class="align-btn">
+        <button class="start">Start for Free</button>
+        <button class="learn">Learn More</button>
+      </div>
     </div>
   </header>
 
   <main class="main">
-    <section class="first-section">
+    <section class="first">
       <h2 class="title">Designed for the future</h2>
       <div class="content">
         <div class="text">
@@ -71,13 +86,14 @@
         
           <h3>Robust content management</h3>
           <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
-        </div>
-        <div class="section">Imagem</div>
+        </div>        
       </div>
     </section>
 
     <section class="second">
-      <div class="image">Imagem</div>
+      <div class="image">
+        <img src="./images/illustration-phones.svg" alt="Illustration phones" title="Illustration phones">
+      </div>
       <div class="text">
         <h2>State of the Art Infrastructure</h2>
         <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
@@ -85,7 +101,9 @@
     </section>
 
     <section class="third">
-      <div class="image">Imagem</div>
+      <div class="image">
+        <img src="./images/illustration-laptop-desktop.svg" alt="Illustration laptop" title="Illustration laptop">
+      </div>
       <div class="text">
         <h3>Free, open, simple</h3>
         <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
@@ -97,37 +115,30 @@
   </main>
 
   <footer class="main-footer">
-    <div class="footer-nav">
-      <h2>Logo</h2>
-      <ul class="product-list">
-        <li><h4>Product</h4></li>
-        <li><a href="#">Overview</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Marketplace</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Integrations</a></li>
-      </ul>
-  
-      <ul class="company-list">      
-        <li><h4>Company</h4></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Careers</a></li>       
-      </ul>
-  
-      <ul class="connect-list">
-        <li><h4>Connect</h4></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Newsletter</a></li>
-        <li><a href="#">LinkedIn</a></li>  
-      </ul>
-    </div>
-    
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Gustavo Victor</a>.
-    </div>
+    <h2><a href="#"><img src="./images/logo.svg" alt="Logo" title="Logo"></a></h2>
+    <ul class="product-list">
+      <li><h4>Product</h4></li>
+      <li><a href="#">Overview</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Marketplace</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Integrations</a></li>
+    </ul>
+
+    <ul class="company-list">      
+      <li><h4>Company</h4></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Careers</a></li>       
+    </ul>
+
+    <ul class="connect-list">
+      <li><h4>Connect</h4></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Newsletter</a></li>
+      <li><a href="#">LinkedIn</a></li>  
+    </ul>
   </footer> 
 
 </body>

@@ -1,0 +1,8 @@
+@mixin defaultBtn($pt, $pb){
+    border: none;
+    border-radius: 15px;
+    padding: $pt $pb; 
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;    
+    header {
+        font-family: 'Overpass', sans-serif;        
+        nav {
+            li, a{
+                font-family: 'Ubuntu', sans-serif;
+            }
+        }
+    }
+
+    main{
+        p, a, button, li, h1, h2, h3, h4, h5, h6{
+            font-family: 'Overpass', sans-serif;
+        }
+    }
+
+    footer{
+        font-family: 'Ubuntu', sans-serif;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none; 
+}
