@@ -21,49 +21,57 @@
 
   <header class="main-header">
     <nav class="nav">
-      <div class="nav-left">
-        <h2><a href="#"><img src="./images/logo.svg" alt="Logo" title="Logo"></a></h2>
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#" class="dropdown-toggle">Product 
-              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>  
-            </a>
-            <div class="dropdown-menu">
-              <a href="#" class="dropdown-item" >Overview</a>
-              <a href="#" class="dropdown-item">Pricing</a>
-              <a href="#" class="dropdown-item">Marketplace</a>
-              <a href="#" class="dropdown-item">Features</a>
-              <a href="#" class="dropdown-item">Integrations</a>
-            </div>
-          </li> 
-          
-          <li class="nav-item">
-            <a href="#" class="dropdown-toggle">Company
-              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>
-            </a>
-            <div class="dropdown-menu">
-              <a href="#" class="dropdown-item">About</a>
-              <a href="#" class="dropdown-item">Team</a>
-              <a href="#" class="dropdown-item">Blog</a>
-              <a href="#" class="dropdown-item">Careers</a>
-            </div>
-          </li>          
-        
-          <li class="nav-item">
-            <a href="#" class="dropdown-toggle">Connect
-              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>
-            </a>
-            <div class="dropdown-menu">
-              <a href="#" class="dropdown-item">Contact</a>
-              <a href="#" class="dropdown-item">Newsletter</a>
-              <a href="#" class="dropdown-item">LinkedIn</a>
-            </div>
-          </li>
-        </ul>
+      <h2 class="mobile-logo logo"><a href="#"><img src="./images/logo.svg" alt="Logo" title="Logo"></a></h2>
+      <div class="btn-toggle">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
       </div>
-      <div class="nav-right">
-        <a href="#" class="btn-login">Login</a>
-        <button class="btn-signup">Sign Up</button>
+      <div class="align">
+        <div class="nav-left">
+          <h2 class="logo"><a href="#"><img src="./images/logo.svg" alt="Logo" title="Logo"></a></h2>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="dropdown-toggle">Product 
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>  
+              </a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item" >Overview</a>
+                <a href="#" class="dropdown-item">Pricing</a>
+                <a href="#" class="dropdown-item">Marketplace</a>
+                <a href="#" class="dropdown-item">Features</a>
+                <a href="#" class="dropdown-item">Integrations</a>
+              </div>
+            </li> 
+            
+            <li class="nav-item">
+              <a href="#" class="dropdown-toggle">Company
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>
+              </a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">About</a>
+                <a href="#" class="dropdown-item">Team</a>
+                <a href="#" class="dropdown-item">Blog</a>
+                <a href="#" class="dropdown-item">Careers</a>
+              </div>
+            </li>          
+          
+            <li class="nav-item">
+              <a href="#" class="dropdown-toggle">Connect
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#FFF" stroke-width="2" opacity=".75" d="M1 1l4 4 4-4"/></svg>
+              </a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Contact</a>
+                <a href="#" class="dropdown-item">Newsletter</a>
+                <a href="#" class="dropdown-item">LinkedIn</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <a href="#" class="btn-login">Login</a>
+          <button class="btn-signup">Sign Up</button>
+        </div>
       </div>
     </nav>
     <div class="call-to-action">
@@ -79,6 +87,7 @@
   <main class="main">
     <section class="first">
       <h2 class="title">Designed for the future</h2>
+      <img class="first-img" src="./images/illustration-editor-mobile.svg" alt="Editor Mobile" title="Editor Mobile">
       <div class="content">
         <div class="text">
           <h3>Introducing an extensible editor</h3>
@@ -91,7 +100,7 @@
     </section>
 
     <section class="second">
-      <div class="image">
+      <div class="second-img">
         <img src="./images/illustration-phones.svg" alt="Illustration phones" title="Illustration phones">
       </div>
       <div class="text">
@@ -101,9 +110,13 @@
     </section>
 
     <section class="third">
-      <div class="image">
+      <div class="third-img">
         <img src="./images/illustration-laptop-desktop.svg" alt="Illustration laptop" title="Illustration laptop">
       </div>
+      <div class="third-img-mobile">
+        <img src="./images/illustration-laptop-mobile.svg" alt="Illustration laptop mobile" title="Illustration laptop mobile">
+      </div>
+
       <div class="text">
         <h3>Free, open, simple</h3>
         <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>

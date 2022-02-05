@@ -1,17 +1,6 @@
-const ul = window.document.querySelector('.nav-list');
-const li = ul.childNodes;
+const nav = window.document.querySelector('.nav');
+const btnToggle = window.document.querySelector('.btn-toggle');
 
-
-li.forEach(item => {
-    item.addEventListener('click', () => {
-        item.classList.toggle('active');
-    });
-
-    item.addEventListener('mouseover', () => {
-        if(!item.classList.contains('active')){
-            item.classList.add('active');
-        }
-    });
-    
-})
-
+btnToggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+});
