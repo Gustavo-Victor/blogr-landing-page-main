@@ -46,7 +46,7 @@ Users are able to:
 
 ### ⚓ Links
 
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://gustavo-victor.github.io/blogr-landing-page-main/)
 - [Challenge URL](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP)
 
 ## 🚀 How to Use
