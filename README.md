@@ -43,7 +43,6 @@ Users are able to:
 ![img](./images/screenshots/screenshot7.png)
 ![img](./images/screenshots/screenshot10.png)
 
-<br/>
 
 ### ⚓ Links
 
