@@ -5,16 +5,16 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [About the project](#about-the-project)
-  - [Functionalities](#functionalities)
-  - [Screenshots](#screenshots)
-  - [Links](#links)
-- [How to use](#how-to-use)
+  - [About the project](#-about-the-project)
+  - [Functionalities](#-functionalities)
+  - [Screenshots](#-screenshots)
+  - [Links](#-links)
+- [How to use](#-how-to-use)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
-- [License](#license)
+  - [Built with](#-built-with)
+  - [What I learned](#-what-i-learned)
+- [Author](#-author)
+- [License](#-license)
 
 ## Overview 
 ### 💻 About the project
