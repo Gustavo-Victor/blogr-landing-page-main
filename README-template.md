@@ -1,111 +1,97 @@
 # Frontend Mentor - Blogr landing page solution
 
-This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+🚀Project Completed ✅
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [About the project](#about-the-project)
+  - [Functionalities](#functionalities)
+  - [Screenshots](#screenshots)
   - [Links](#links)
+- [How to use](#how-to-use)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+## Overview 
+### 💻 About the project
 
-## Overview
+This project is a simple landing page made using HTML, SASS and JS and it's a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP).  Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-### The challenge
+### ⚙️ Functionalities
 
-Users should be able to:
+Users are able to:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- [x] View the optimal layout for the site depending on their device's screen size
+- [x] See hover states for all interactive elements on the page
 
-### Screenshot
 
-![](./screenshot.jpg)
+### 🎨 Screenshots
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![img](./images/screenshots/screenshot1.png)
+![img](./images/screenshots/screenshot2.png)
+![img](./images/screenshots/screenshot3.png)
+![img](./images/screenshots/screenshot4.png)
+![img](./images/screenshots/screenshot5.png)
+![img](./images/screenshots/screenshot6.png)
+![img](./images/screenshots/screenshot7.png)
+![img](./images/screenshots/screenshot10.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+### ⚓ Links
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+- [Live Site URL](https://your-live-site-url.com)
+- [Challenge URL](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+## 🚀 How to Use
 
-### Links
+Before you start, you will need to install [Git](https://git-scm.com/) and also a powerful code editor like [Visual Studio Code](https://code.visualstudio.com/) to clone, test and modify this repository on your machine. To understand the code, you need to have basic knowledge of HTML, CSS, SASS and JavaScript.
+There's no secret, after having cloned the project, to run it on your machine, just open the "index.html" file in any browser. But if you want to modify the sass files and automatically update the css files, just follow the steps below:
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+```bash
+    # Clone the project (only if not already cloned)
+    $ git clone https://github.com/Gustavo-Victor/blogr-landing-page-main.git
+
+    # Enter the project folder
+    $ cd blogr-landing-page-main/
+
+    # Install sass on your machine globally 
+    $ npm i -g sass 
+
+    # Compile sass file to css file and automatically update
+    $ npm run sass 
+
+    # Now just open the 'index.html' file in any browser and start coding
+```
 
 ## My process
+### 🛠 Built with
 
-### Built with
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [SASS](https://sass-lang.com/)
+- [JavaScript](https://www.javascript.com/)
+### 🏅 What I learned
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+In this project I was able to reinforce my knowledge in CSS, SASS and JS in general.
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+The main topics of SASS are: nested rules, SASS declaratives like @use, @import, and @mixins.
 
-### What I learned
+As for JavaScript, the main reinforced knowledge is about events, constants, DOM, conditionals, loops and related things.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+## 👤 Author
 
-To see how you can add code snippets, see below:
+ <div class="social-media">
+  <a href="https://www.instagram.com/gustav0_vbs/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+ 	<a href="https://twitter.com/GustavoVictorBS" target="_blank"><img src="https://img.shields.io/badge/Twitter-9146FF?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
+  <a href = "mailto:gustavovbs270@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/gustavo-victor-575b93206/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+ <br/>
+</div>
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+## 📝 License 
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Copyright © 2022 Gustavo Victor.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+This project is MIT licensed. Anyone can use and contribute to this project.

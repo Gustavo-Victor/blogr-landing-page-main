@@ -16,7 +16,7 @@
     border-radius: 0 0 0 70px;
 
     .nav {
-
+        z-index: 5;
         .align{
             display: flex;
             align-items: center;
@@ -88,6 +88,7 @@
             }
 
             .dropdown-menu{
+                z-index: 10;
                 display: flex;
                 display: none;
                 position: absolute;
@@ -103,6 +104,7 @@
                 box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.3);
 
                 .dropdown-item{
+                    z-index: 10;
                     color: variables.$footer_bg;
 
                     &:hover{
@@ -140,6 +142,7 @@
     }
 
     .call-to-action{
+        z-index: 1;
         text-align: center;
 
         h1{
@@ -364,6 +367,7 @@
         background-repeat: no-repeat, no-repeat;        
 
         .nav{
+            z-index: 9;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -372,7 +376,7 @@
 
             &.active > .align{
                 display: flex;
-            }
+            }                   
 
             &.active > .btn-toggle{
                 .one{
@@ -398,6 +402,7 @@
             }
             
             .align{
+                z-index: 20;
                 display: none;                                
                 position: absolute;
                 top: 5rem;    
@@ -413,6 +418,7 @@
                 box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.2);                
                 
                 .nav-left{
+                    z-index: 21;
                     width: 100%;
 
                     .logo{
@@ -420,6 +426,7 @@
                     }
 
                     .nav-list{
+                        z-index: 22;
                         display: flex;
                         width: 100%;
                         flex-direction: column;
@@ -428,7 +435,8 @@
                         text-align: center;
 
                         .nav-item {
-                            position: relative;                                                width: 100%;    
+                            position: relative;
+                            width: 100%;    
                             display: block;     
                                                       
 
@@ -449,6 +457,7 @@
                             }
 
                             .dropdown-menu{
+                                z-index: 25;
                                 position: relative;
                                 min-width: 100%;
                                 left: 0;
@@ -494,6 +503,8 @@
         }
 
         .call-to-action{
+            z-index: 1;
+
             h1{
                 font-size: 30px;
             }
