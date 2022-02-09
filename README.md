@@ -21,7 +21,7 @@
 
 This project is a simple landing page made using HTML, SASS and JS and it's a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP).  Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-### ⚙️ Functionalities
+### ⚙️Functionalities
 
 Users are able to:
 
@@ -35,10 +35,15 @@ Users are able to:
 ![img](./images/screenshots/screenshot2.png)
 ![img](./images/screenshots/screenshot3.png)
 ![img](./images/screenshots/screenshot4.png)
+
+<br/>
+
 ![img](./images/screenshots/screenshot5.png)
 ![img](./images/screenshots/screenshot6.png)
 ![img](./images/screenshots/screenshot7.png)
 ![img](./images/screenshots/screenshot10.png)
+
+<br/>
 
 ### ⚓ Links
 
